@@ -1,0 +1,184 @@
+body { 
+    font-family: 'Merriweather', Garamond, sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    padding:0;
+    margin:0;
+    background-color: #f3f2e9;
+}
+
+.container{ 
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    display:grid;
+    grid: template columns 40% 30% 30%;
+    padding-top: 20px;
+    min-height: 40px;
+    border-bottom: #eaebe6ea 3px solid;
+}
+
+#photo{
+    display: inline-flex;
+} 
+
+#title{
+    display: inline-flex;
+    font-size: 20px;
+    line-height: 1.75;
+    padding: 0px;
+    margin: 10px;
+    color: #3e645c;
+    float: top;
+}
+    
+header a{
+    display: inline-flex;
+    color: #7f9b7b;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+header nav{
+    list-style-type: none;
+    float:right;  
+}
+
+ header .highlight, header .current a{
+    color:#3e645c;
+    font-weight: bold;
+}
+
+ header a:hover{
+    color:#349b0b; 
+    font-weight:bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background:url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff;
+    letter-spacing: 0.75px;
+   }
+
+#links{  
+    display: inline-flex;
+    padding-left: 3em;
+    position: relative; top:3em;
+    }
+
+.contact{
+    display: inline-flex;
+    margin-bottom: 1rem; 
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome; 
+    color: #7f9b7b; 
+}
+
+.fa:hover{
+    color:#349b0b; 
+    font-weight:bold
+}
+
+.fa-fw{
+    width:1.9em;
+    text-align:center;
+}
+
+.fa-4x{
+    font-size: 4em;
+}
+
+.valign-middle{
+    vertical-align:middle;
+}
+
+.fa-linkedin-square::before{
+    content:"\f08c";
+    font-family: FontAwesome;
+}
+
+.fa-github-square::before{
+    content:"\f092";
+    font-family: FontAwesome;
+}
+
+.fa-gmail-square::before{
+    content:"\f003";
+}
+
+.header-font {
+    color: #7f9b7b;
+}
+
+.header-font:hover{
+    color:#349b0b; 
+    font-weight:bold;
+}
+
+.footer{
+   border-top: #eaebe6ea 3px solid;
+   bottom:0;
+   height: 2.5rem;
+}
+
+#pme{
+    display: inline-flex;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    position: relative; top:3em;
+}
+
+.mememe{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0.25em;
+    grid-row-gap: 0.5em;
+    color: #d1d6bbea;
+    background:url('sweet.png');
+    background-position: 100px 5px;
+    padding-left: 10em;
+}   
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 25% 75%;
+    grid-column-gap: 0.25em;
+    grid-row-gap: 0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    border-top: #d1d6bbea 10px solid;
+    border-bottom: #d1d6bbea 10px solid;
+  }
+
+.wrapper > div{
+    background:#ddebda;
+    padding: 1em;
+  }
+
+.wrapper > div:nth-child(even){
+    background: #f3f7f2;
+  }
+
+a{
+      text-decoration: none;
+      color: #73e645;
+  }
+
+  a:hover{
+    color:#349b0b; 
+    font-weight:bold;
+    transition: 0.5s;
+    z-index: -1;
+  }
+//  wtf bitch
