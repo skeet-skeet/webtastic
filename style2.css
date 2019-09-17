@@ -171,8 +171,8 @@ header nav{
   }
 
 a{
-      text-decoration: none;
-      color: #73e645;
+  text-decoration: none;
+  color: #73e645;
   }
 
   a:hover{
@@ -181,4 +181,3 @@ a{
     transition: 0.5s;
     z-index: -1;
   }
-//  wtf bitch
