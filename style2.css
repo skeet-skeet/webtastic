@@ -204,7 +204,7 @@ a:hover{
 
 .wrapper:hover{
     transform: scale(1);
-    border-color: #d1b63e;
+    border-color: #423702;
     transition-delay: 100ms;
     transition-duration: 500ms;
 }
