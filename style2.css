@@ -129,8 +129,12 @@ header nav{
 
 .footer{
    border-top: #eaebe6ea 3px solid;
+   max-height: 3em; 
    bottom:0;
-   height: 2.5rem;
+}
+
+#darryl{
+    margin-left:3em;
 }
 
 #pme{
@@ -161,6 +165,7 @@ header nav{
     margin-bottom: 3em;
     border-top: #d1d6bbea 10px solid;
     border-bottom: #d1d6bbea 10px solid;
+    transform: scale(0.7);
 }
 
 .wrapper > div{
@@ -185,13 +190,21 @@ a:hover{
 }
 
 #resume{
-    margin-left: 2.5em;
+    margin-left: 25em;
 }
 
 #experience{
     background:url('neat.jpg');
+    margin-botom: 0;
 }
 
 #rez{
     background:url('wows.jpg'); 
+}
+
+.wrapper:hover{
+    transform: scale(1);
+    border-color: #d1b63e;
+    transition-delay: 100ms;
+    transition-duration: 500ms;
 }
