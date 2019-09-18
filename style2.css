@@ -145,8 +145,8 @@ header nav{
     grid-template-columns: 50% 50%;
     grid-column-gap: 0.25em;
     grid-row-gap: 0.5em;
-    color: #f7f7f7;
-    background:url('wood.jpg');
+    color: #2b4d32;
+    background:url('jesus.jpeg');
     padding-left: 10em;
     background-size: cover;
 }   
