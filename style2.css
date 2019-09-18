@@ -145,10 +145,10 @@ header nav{
     grid-template-columns: 50% 50%;
     grid-column-gap: 0.25em;
     grid-row-gap: 0.5em;
-    color: #d1d6bbea;
-    background:url('sweet.png');
-    background-position: 100px 5px;
+    color: #f7f7f7;
+    background:url('wood.jpg');
     padding-left: 10em;
+    background-size: cover;
 }   
 
 .wrapper{
@@ -187,6 +187,11 @@ a:hover{
 #resume{
     margin-left: 2.5em;
 }
+
 #experience{
     background:url('neat.jpg');
+}
+
+#rez{
+    background:url('wows.jpg'); 
 }
